@@ -1,0 +1,40 @@
+.sidebar {
+  width: 182px;
+    // height: 100vh;
+    // position: fixed;
+    background-color: #eb6824 !important;
+    .sidebar-header {
+      padding: 1rem;
+      height: 95px;
+      border-bottom: 0.3px solid #8d9297;
+  
+      img {
+        width: 81px;
+        margin: 0 auto;
+      }
+    }
+    .nav{
+      max-height: calc(100vh - 95px);
+      overflow-y: auto;
+      
+    }
+
+    .nav-link {
+      color: #f8f9fa;
+      padding: 10px 15px;
+      border-bottom: 0.3px solid #8d9297;
+      .bi{
+        margin-right: 7px;
+      }
+      &:hover {
+        background-color: #f4ac86;
+        color: white;
+      }
+     
+
+    }
+  }
+  .active{
+    background-color: #f4ac86;
+    color: white;
+  }

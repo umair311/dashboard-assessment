@@ -1,0 +1,12 @@
+<nav class="sidebar bg-dark text-white">
+    <div class="sidebar-header">
+      <img src="assets/logo.png" alt="Logo" class="logo">
+    </div>
+    <ul class="nav custom-scrollbar">
+      <li class="nav-item w-100" *ngFor="let link of links"  routerLinkActive="active">
+        <a class="nav-link text-white"  [routerLink]="link.route">
+          <i class="bi" [class]="link.icon"></i> {{ link.title }}
+        </a>
+      </li>
+    </ul>
+  </nav>

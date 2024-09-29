@@ -1,0 +1,45 @@
+
+
+.card {
+    background-color: #27293d;  
+    color: #ffffff;  
+    border: none; 
+  }
+  
+  .navbar {
+    color: #ffffff;
+  }
+  
+  .container-fluid {
+    padding-left: 220px;
+  }
+  
+  .form-control, .btn-outline-success {
+    border-radius: 0;
+  }
+  @media (max-width: 768px) {
+    .card {
+      margin-bottom: 20px; 
+    }
+  
+    .table {
+      font-size: 0.9em;
+    }
+  }
+
+  ::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent !important;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

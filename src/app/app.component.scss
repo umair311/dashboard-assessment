@@ -1,0 +1,15 @@
+.main-view{
+    display: flex;
+    .side{
+        width: 182px;
+    }
+    .dashboard{
+        width: calc(100% - 182px);
+    }
+}
+.main-routing{
+   height: calc(100vh - 95px);
+    background: #27293d;
+    overflow-y: auto;
+}
+

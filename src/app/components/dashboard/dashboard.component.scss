@@ -1,0 +1,27 @@
+
+.card {
+  background-color: #27293d; 
+  color: #ffffff;
+  border: none;
+}
+
+.table-dark {
+  background-color: #1e1e2d;
+  color: #ffffff;
+
+  .table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: rgba(255, 87, 34, 0.1);
+  }
+
+  th {
+    color: #FF5722;
+  }
+}
+
+.alarm-content {
+  padding: 10px;
+}
+
+h5 {
+  color: #FF5722;
+}
